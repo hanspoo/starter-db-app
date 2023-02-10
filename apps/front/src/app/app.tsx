@@ -3,39 +3,33 @@ import {
   MenuUnfoldOutlined,
   UploadOutlined,
   UserOutlined,
-  VideoCameraOutlined,
 } from '@ant-design/icons';
-import { Button, Layout, Menu } from 'antd';
+import { Layout, Menu } from 'antd';
 import React, { useEffect, useState } from 'react';
 
 import {
   LoginState,
-  Productos,
-  SeccionOrdenes,
-  Preferencias,
   LoginSection,
   useHttpClient,
 } from '@flash-ws/components';
 import { useDispatch, useSelector } from 'react-redux';
-import { actualizarProductos, logout, RootState } from '@flash-ws/reductor';
+import { actualizarProductos, RootState } from '@flash-ws/reductor';
 
 
 const { Header, Sider, Content } = Layout;
 
 enum Modo {
-  PEDIDOS = 'PEDIDOS',
-  ORDENES = 'ORDENES',
-  LOCALES = 'LOCALES',
-  PRODUCTOS = 'PRODUCTOS',
-  PREFS = 'PREFS',
-  CLIENTES = 'CLIENTES',
+
+  HOME = 'HOME',
+  ABOUT = 'ABOUT',
+
 }
 
 const App = () => {
   const httpClient = useHttpClient()
   const dispatch = useDispatch();
   const loggedIn = useSelector((state: RootState) => state.counter.loggedIn);
-  const [modo, setModo] = useState(Modo.ORDENES);
+  const [modo, setModo] = useState(Modo.HOME);
   const [collapsed, setCollapsed] = useState(false);
 
   useEffect(() => {
@@ -58,37 +52,17 @@ const App = () => {
           onClick={onChangeMenu}
           theme="dark"
           mode="inline"
-          defaultSelectedKeys={[Modo.ORDENES + '']}
+          defaultSelectedKeys={[Modo.HOME + '']}
           items={[
             {
-              key: Modo.ORDENES,
+              key: Modo.HOME,
               icon: <UserOutlined />,
-              label: 'Órdenes',
+              label: 'Home',
             },
             {
-              key: Modo.PRODUCTOS,
+              key: Modo.ABOUT,
               icon: <UploadOutlined />,
-              label: 'Productos',
-            },
-            {
-              key: Modo.PEDIDOS,
-              icon: <UserOutlined />,
-              label: 'Pedidos',
-            },
-            {
-              key: Modo.CLIENTES,
-              icon: <VideoCameraOutlined />,
-              label: 'Clientes',
-            },
-            {
-              key: Modo.LOCALES,
-              icon: <VideoCameraOutlined />,
-              label: 'Locales',
-            },
-            {
-              key: Modo.PREFS,
-              icon: <VideoCameraOutlined />,
-              label: 'Preferencias',
+              label: 'About',
             },
           ]}
         />
@@ -115,21 +89,9 @@ const App = () => {
             minHeight: 280,
           }}
         >
-          {modo === Modo.PEDIDOS && <p>En construcción</p>}
-          {modo === Modo.CLIENTES && <p>En construcción</p>}
-          {modo === Modo.LOCALES && <p>En construcción</p>}
-          {modo === Modo.PRODUCTOS && <Productos />}
-          {modo === Modo.ORDENES && <SeccionOrdenes />}
-          {modo === Modo.PREFS && <Preferencias />}
-          <Button
-            style={{ position: 'absolute', left: '1em', bottom: '1em' }}
-            type="link"
-            onClick={() => {
-              dispatch(logout());
-            }}
-          >
-            Borrar access token
-          </Button>
+          {modo === Modo.HOME && <Home />}
+          {modo === Modo.ABOUT && <About />}
+
         </Content>
       </Layout>
     </Layout>
@@ -143,10 +105,4 @@ function Home() {
 }
 function About() {
   return <div>About</div>;
-}
-function Dashboard() {
-  return <div>Dashboard</div>;
-}
-function NoMatch() {
-  return <div>NoMatch</div>;
 }
