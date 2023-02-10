@@ -1,0 +1,79 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.layout {
+  background-color: orangered;
+}
+.title {
+  /* padding: 0.5em 1em; */
+  /* background-color: green; */
+  color: white !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: unset !important;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  /* background-color: greenyellow; */
+}
+
+.login-form {
+  border: none;
+  /* width: 400px; */
+  /* min-width: 400px; */
+  background-color: white;
+  /* color: white; */
+  padding: 2em 3em;
+}
+
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+}
+
+@media screen and (min-width: 400px) {
+  /* .login-form {
+    width: 400px;
+    border: solid 1px #666;
+    background-color: #eee;
+  }
+  .container {
+    align-items: center;
+  } */
+
+  .container {
+    align-items: center;
+    /* height: 9vh; */
+    height: fit-content;
+    /* background-color: tomato; */
+    justify-content: center;
+  }
+  .login-form {
+    width: 400px;
+    align-self: center;
+    border: solid 1px #666;
+    background-color: white;
+  }
+}
+
+.header {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  /* justify-content: center; */
+}

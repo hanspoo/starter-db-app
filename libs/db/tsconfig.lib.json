@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "declaration": true,
+    "types": ["node"]
+  },
+  "include": [
+    "**/*.ts",
+    "../../global.d.ts",
+    "../../types/*.d.ts",
+    "jest.env.js",
+    "../../*.d.ts",
+    "src/lib/auth/RecoverPasswordServiceResult.ts"
+  ],
+  "exclude": ["jest.config.ts", "**/*.spec.ts", "**/*.test.ts"]
+}

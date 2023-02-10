@@ -1,0 +1,58 @@
+{
+  "compileOnSave": false,
+  "include": [
+    "./types.d.ts"
+  ],
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "strictPropertyInitialization": false,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "typeRoots": [
+      "types",
+      "node_modules/@types"
+    ],
+    "paths": {
+      "@flash-ws/api-interfaces": [
+        "libs/api-interfaces/src/index.ts"
+      ],
+      "@flash-ws/components": [
+        "libs/components/src/index.ts"
+      ],
+      "@flash-ws/dao": [
+        "libs/dao/src/index.ts"
+      ],
+      "@flash-ws/db": [
+        "libs/db/src/index.ts"
+      ],
+      "@flash-ws/mail-utils": [
+        "libs/mail-utils/src/index.ts"
+      ],
+      "@flash-ws/reductor": [
+        "libs/reductor/src/index.ts"
+      ],
+      "@flash-ws/shared": [
+        "libs/shared/src/index.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}

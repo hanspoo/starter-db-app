@@ -1,0 +1,952 @@
+[
+    {
+        "id": 381,
+        "codigo": "N524",
+        "nombre": "185 -SISA-LINARES-JANUARIO-ESP"
+    },
+    {
+        "id": 382,
+        "codigo": "N587",
+        "nombre": "SISA PUERTO MONTT"
+    },
+    {
+        "id": 383,
+        "codigo": "N517",
+        "nombre": "N517 - SISA TEMUCO CAUPOLICAN"
+    },
+    {
+        "id": 384,
+        "codigo": "N595",
+        "nombre": "SISA Melipilla Stripcenter"
+    },
+    {
+        "id": 385,
+        "codigo": "N552",
+        "nombre": "27-SISA-VALPARAÍSO-PEDRO MONTT"
+    },
+    {
+        "id": 386,
+        "codigo": "N609",
+        "nombre": "SISA LAS CONDES-LOS DOMÍNICOS"
+    },
+    {
+        "id": 387,
+        "codigo": "N636",
+        "nombre": "636-SISA LO CAMPINO"
+    },
+    {
+        "id": 388,
+        "codigo": "N822",
+        "nombre": "SISA QUILPUE LOS PINOS PASAJE"
+    },
+    {
+        "id": 389,
+        "codigo": "N901",
+        "nombre": "901 - SISA VALLENAR ABARTALL"
+    },
+    {
+        "id": 390,
+        "codigo": "N612",
+        "nombre": "SISA SANTIAGO-GRAJALES"
+    },
+    {
+        "id": 391,
+        "codigo": "N682",
+        "nombre": "113-SISA-SANTIAGO-PORTUGAL"
+    },
+    {
+        "id": 392,
+        "codigo": "N742",
+        "nombre": "216-DAL VILLAGRÁN 558 LA"
+    },
+    {
+        "id": 393,
+        "codigo": "N611",
+        "nombre": "SISA INDEPENDENCIA-VIVACETA"
+    },
+    {
+        "id": 394,
+        "codigo": "N763",
+        "nombre": "270-SISA-STGO-MAPOCHO"
+    },
+    {
+        "id": 395,
+        "codigo": "N797",
+        "nombre": "SISA ANTOFAGASTA 14 DE FEBRERO"
+    },
+    {
+        "id": 396,
+        "codigo": "N689",
+        "nombre": "150-SISA-SANTIAGO-SAN PABLO"
+    },
+    {
+        "id": 397,
+        "codigo": "N811",
+        "nombre": "811 - SISA ALTO HOSPICIO"
+    },
+    {
+        "id": 398,
+        "codigo": "N694",
+        "nombre": "157-SISA-CON CON-AV. MANANTIAL"
+    },
+    {
+        "id": 399,
+        "codigo": "N783",
+        "nombre": "783 - SISA LOMAS SAN ANDRES"
+    },
+    {
+        "id": 400,
+        "codigo": "N733",
+        "nombre": "220-DAL DEL SALVADOR 495 PV"
+    },
+    {
+        "id": 401,
+        "codigo": "N654",
+        "nombre": "654 - SISA MAIPU CIUDAD SATELI"
+    },
+    {
+        "id": 402,
+        "codigo": "N747",
+        "nombre": "186-SISA-CALERA DE TANGO"
+    },
+    {
+        "id": 403,
+        "codigo": "N729",
+        "nombre": "212-DAL PED AGUI CER 1010 A (E"
+    },
+    {
+        "id": 404,
+        "codigo": "N538",
+        "nombre": "6-SISA-QUILPUÉ-FREIRE EL BELLO"
+    },
+    {
+        "id": 405,
+        "codigo": "N766",
+        "nombre": "276-MC-FLORIDA-AV.FLORIDA 1014"
+    },
+    {
+        "id": 406,
+        "codigo": "N812",
+        "nombre": "812 - SISA SANTA MARIA ARICA"
+    },
+    {
+        "id": 407,
+        "codigo": "N744",
+        "nombre": "222-DAL AUGUSTO GROB 1080 LU"
+    },
+    {
+        "id": 408,
+        "codigo": "N983",
+        "nombre": "983 - CORONEL-MANUEL MONTT"
+    },
+    {
+        "id": 409,
+        "codigo": "N711",
+        "nombre": "SISA AGUA SANTA"
+    },
+    {
+        "id": 410,
+        "codigo": "N680",
+        "nombre": "111-SISA-TALCAHUANO-COLON"
+    },
+    {
+        "id": 411,
+        "codigo": "N662",
+        "nombre": "39-SISA-VIÑA-1 PONIENTE"
+    },
+    {
+        "id": 412,
+        "codigo": "N699",
+        "nombre": "173-SISA-L.GRANJA-LOS PENSAMIE"
+    },
+    {
+        "id": 413,
+        "codigo": "N771",
+        "nombre": "281-SISA-STGO-HUERFANOS"
+    },
+    {
+        "id": 414,
+        "codigo": "N643",
+        "nombre": "643 - SISA OCHAGAVÍA"
+    },
+    {
+        "id": 415,
+        "codigo": "N625",
+        "nombre": "SISA PADRE LAS CASAS"
+    },
+    {
+        "id": 416,
+        "codigo": "N601",
+        "nombre": "SISA LA CISTERNA"
+    },
+    {
+        "id": 417,
+        "codigo": "N736",
+        "nombre": "260-DAL AV. GRECIA 5791 P"
+    },
+    {
+        "id": 418,
+        "codigo": "N648",
+        "nombre": "648 - SISA LA SERENA - SAN JOAQUIN"
+    },
+    {
+        "id": 419,
+        "codigo": "N732",
+        "nombre": "202-DAL MANUEL RODRIGUEZ 1190"
+    },
+    {
+        "id": 420,
+        "codigo": "N777",
+        "nombre": "284-SISA-LAS CONDES-APOQUINDO"
+    },
+    {
+        "id": 421,
+        "codigo": "N839",
+        "nombre": "839 - LA CRUZ"
+    },
+    {
+        "id": 422,
+        "codigo": "N836",
+        "nombre": "836 - LA SERENA RUTA 41"
+    },
+    {
+        "id": 423,
+        "codigo": "N731",
+        "nombre": "221-SISA SAN FELIPE  YUNGAY 1150"
+    },
+    {
+        "id": 424,
+        "codigo": "N658",
+        "nombre": "658 - SISA COQUIMBO SINDEMPART"
+    },
+    {
+        "id": 425,
+        "codigo": "N767",
+        "nombre": "277-SISA-STGO-ALAMEDA"
+    },
+    {
+        "id": 426,
+        "codigo": "N764",
+        "nombre": "272-MC-FLORIDA-AV.FLORIDA 9385"
+    },
+    {
+        "id": 427,
+        "codigo": "N801",
+        "nombre": "SISA COLLAO CONCEPCION"
+    },
+    {
+        "id": 428,
+        "codigo": "N706",
+        "nombre": "181-SISA-RENCA-AV.DGO. STA. MA"
+    },
+    {
+        "id": 429,
+        "codigo": "N585",
+        "nombre": "SISA OSORNO DA VINCI"
+    },
+    {
+        "id": 430,
+        "codigo": "N597",
+        "nombre": "SISA EL CARMEN TEMUCO"
+    },
+    {
+        "id": 431,
+        "codigo": "N593",
+        "nombre": "593-SISA BUSTAMANTE"
+    },
+    {
+        "id": 432,
+        "codigo": "N547",
+        "nombre": "19-SISA-TEMUCO-AV. PABLO NERUD"
+    },
+    {
+        "id": 433,
+        "codigo": "N806",
+        "nombre": "SISA MAIPU CENTRO"
+    },
+    {
+        "id": 434,
+        "codigo": "N834",
+        "nombre": "834 - SISA TRINIDAD"
+    },
+    {
+        "id": 435,
+        "codigo": "N827",
+        "nombre": "827 - SISA BALMACEDA LA SERENA"
+    },
+    {
+        "id": 436,
+        "codigo": "N926",
+        "nombre": "926 - SISA - SAN BERNARDO"
+    },
+    {
+        "id": 437,
+        "codigo": "N663",
+        "nombre": "40-SISA-CHILLAN-EL ROBLE"
+    },
+    {
+        "id": 438,
+        "codigo": "N756",
+        "nombre": "SISA PASEO PACIFICO-SAN ANTONI"
+    },
+    {
+        "id": 439,
+        "codigo": "N924",
+        "nombre": "924 - SISA - MACHALI"
+    },
+    {
+        "id": 440,
+        "codigo": "N679",
+        "nombre": "108-SISA-CORONEL-MANUEL MONTT"
+    },
+    {
+        "id": 441,
+        "codigo": "N674",
+        "nombre": "56-SISA-VIÑA DEL MAR-QUILLOTA"
+    },
+    {
+        "id": 442,
+        "codigo": "N548",
+        "nombre": "20-SISA-VIÑA-RAFAEL SOTOMAYOR"
+    },
+    {
+        "id": 443,
+        "codigo": "N684",
+        "nombre": "115-SISA-VALDIVIA-CHACABUCO"
+    },
+    {
+        "id": 444,
+        "codigo": "N798",
+        "nombre": "SISA ANTOFAGASTA MAIPU"
+    },
+    {
+        "id": 445,
+        "codigo": "N596",
+        "nombre": "SISA SAN PEDRO DEL MAR"
+    },
+    {
+        "id": 446,
+        "codigo": "N688",
+        "nombre": "128-SISA-CONCEPCIÓN-P.A.CERDA"
+    },
+    {
+        "id": 447,
+        "codigo": "N813",
+        "nombre": "813 - SISA CASAS DE VALENCIA I"
+    },
+    {
+        "id": 448,
+        "codigo": "N602",
+        "nombre": "SISA SANTIAGO-FRANKLIN"
+    },
+    {
+        "id": 449,
+        "codigo": "N665",
+        "nombre": "42-SISA-LOS ANDES-CHACABUCO"
+    },
+    {
+        "id": 450,
+        "codigo": "N600",
+        "nombre": "SISA SANTIAGO BANDERA"
+    },
+    {
+        "id": 451,
+        "codigo": "N545",
+        "nombre": "15-SISA-VIÑA DEL MAR-VILLANELO"
+    },
+    {
+        "id": 452,
+        "codigo": "N758",
+        "nombre": "758 - SISA MAIPU 3 PONIENTE"
+    },
+    {
+        "id": 453,
+        "codigo": "N826",
+        "nombre": "826 - SISA TUMA TEMUCO"
+    },
+    {
+        "id": 454,
+        "codigo": "N561",
+        "nombre": "561-SISA CURAUMA"
+    },
+    {
+        "id": 455,
+        "codigo": "N669",
+        "nombre": "46-SISA-PROVIDENCIA-AV.PROV"
+    },
+    {
+        "id": 456,
+        "codigo": "N549",
+        "nombre": "23-SISA-LA CALERA-ZENTENO"
+    },
+    {
+        "id": 457,
+        "codigo": "N645",
+        "nombre": "645-SISA CURICO"
+    },
+    {
+        "id": 458,
+        "codigo": "N543",
+        "nombre": "12-SISA-QUILPUÉ-CLAUDIO VICUÑA"
+    },
+    {
+        "id": 459,
+        "codigo": "N759",
+        "nombre": "759 - SISA QUINTA NORMAL"
+    },
+    {
+        "id": 460,
+        "codigo": "N823",
+        "nombre": "SISA RECOLETA"
+    },
+    {
+        "id": 461,
+        "codigo": "N902",
+        "nombre": "902 - SISA HUASCO ABARTALL"
+    },
+    {
+        "id": 462,
+        "codigo": "N805",
+        "nombre": "805 - SISA VALPARAISO BRASIL"
+    },
+    {
+        "id": 463,
+        "codigo": "N852",
+        "nombre": "N852 SISA - LOS ANDES BABURIZZ"
+    },
+    {
+        "id": 464,
+        "codigo": "N918",
+        "nombre": "918 - SISA PUENTE ALTO EL PEÑO"
+    },
+    {
+        "id": 465,
+        "codigo": "N973",
+        "nombre": "973 - SISA - MOLINA"
+    },
+    {
+        "id": 466,
+        "codigo": "N976",
+        "nombre": "976 - SISA PADRE HURTADO  LOS SILOS"
+    },
+    {
+        "id": 467,
+        "codigo": "N539",
+        "nombre": "7-SISA-VILLA ALEMANA-VALPARAÍS"
+    },
+    {
+        "id": 468,
+        "codigo": "N702",
+        "nombre": "177-SISA-EL BOSQUE-GRAN AVENID"
+    },
+    {
+        "id": 469,
+        "codigo": "N915",
+        "nombre": "915 - SISA BOSQUES DE SAN FCO."
+    },
+    {
+        "id": 470,
+        "codigo": "N678",
+        "nombre": "107-SISA-CONCEPCIÓN-21 DE MAYO"
+    },
+    {
+        "id": 471,
+        "codigo": "N778",
+        "nombre": "187-SISA-SAN PEDRO DE LA PAZ"
+    },
+    {
+        "id": 472,
+        "codigo": "N707",
+        "nombre": "182-SISA-LA REINA-AV. LARRAÍN"
+    },
+    {
+        "id": 473,
+        "codigo": "N590",
+        "nombre": "SISA IQUIQUE TARAPACA"
+    },
+    {
+        "id": 474,
+        "codigo": "N608",
+        "nombre": "SISA SANTIAGO-SAN DIEGO"
+    },
+    {
+        "id": 475,
+        "codigo": "N807",
+        "nombre": "SISA RANCAGUA CENTRO REX"
+    },
+    {
+        "id": 476,
+        "codigo": "N672",
+        "nombre": "49-SISA-PTE.ALTO-AV.CONCHA Y T"
+    },
+    {
+        "id": 477,
+        "codigo": "N594",
+        "nombre": "SISA PUDAHUEL"
+    },
+    {
+        "id": 478,
+        "codigo": "N765",
+        "nombre": "275-MC-LA CIST.-J.M. CARRERA"
+    },
+    {
+        "id": 479,
+        "codigo": "N569",
+        "nombre": "569-SISA CONCEPCION BARROS ARA"
+    },
+    {
+        "id": 480,
+        "codigo": "N757",
+        "nombre": "757-SISA PAJARITOS"
+    },
+    {
+        "id": 481,
+        "codigo": "N610",
+        "nombre": "SISA LA GRANJA-SANTA ROSA"
+    },
+    {
+        "id": 482,
+        "codigo": "N730",
+        "nombre": "217-DAL CIENFUEGOS 527 L"
+    },
+    {
+        "id": 483,
+        "codigo": "N808",
+        "nombre": "SISA VIÑA EX-CRAV"
+    },
+    {
+        "id": 484,
+        "codigo": "N638",
+        "nombre": "638-SISA PEÑABLANCA"
+    },
+    {
+        "id": 485,
+        "codigo": "N704",
+        "nombre": "179-SISA-L.CONDES-AV.FCO. BILB"
+    },
+    {
+        "id": 486,
+        "codigo": "N542",
+        "nombre": "11-SISA-VIÑA DEL MAR-AV.VALP"
+    },
+    {
+        "id": 487,
+        "codigo": "N740",
+        "nombre": "207-DAL MANUEL RODRÍGUEZ  806"
+    },
+    {
+        "id": 488,
+        "codigo": "N540",
+        "nombre": "8-SISA-QUILLOTA-PRAT 95"
+    },
+    {
+        "id": 489,
+        "codigo": "N755",
+        "nombre": "755-SISA PEÑAFLOR"
+    },
+    {
+        "id": 490,
+        "codigo": "N781",
+        "nombre": "SISA PORTAL EL BELLOTO"
+    },
+    {
+        "id": 491,
+        "codigo": "N626",
+        "nombre": "SISA PLAZA DON CARLOS"
+    },
+    {
+        "id": 492,
+        "codigo": "N835",
+        "nombre": "835 - SISA CHIGUAYANTE"
+    },
+    {
+        "id": 493,
+        "codigo": "N753",
+        "nombre": "753-SISA LA LIGUA"
+    },
+    {
+        "id": 494,
+        "codigo": "N906",
+        "nombre": "906 - SISA PUERTO VARAS"
+    },
+    {
+        "id": 495,
+        "codigo": "N842",
+        "nombre": "842 - SISA ROQUE ESTEBAN"
+    },
+    {
+        "id": 496,
+        "codigo": "N845",
+        "nombre": "845 - SISA COQUIMBO LA CANTERA"
+    },
+    {
+        "id": 497,
+        "codigo": "N911",
+        "nombre": "911 - SISA VALPARAISO BARRIO I"
+    },
+    {
+        "id": 498,
+        "codigo": "N987",
+        "nombre": "987 - MAIPU- EL BOSQUE"
+    },
+    {
+        "id": 499,
+        "codigo": "N985",
+        "nombre": "985 - VICTORIA- ARTURO PRAT"
+    },
+    {
+        "id": 500,
+        "codigo": "N991",
+        "nombre": "991 - SISA PEÑALOLEN CONSISTOR"
+    },
+    {
+        "id": 501,
+        "codigo": "N907",
+        "nombre": "907 - SISA CHIGUAYANTE-MANUEL"
+    },
+    {
+        "id": 502,
+        "codigo": "N877",
+        "nombre": "N877 SISA PIRQUE"
+    },
+    {
+        "id": 503,
+        "codigo": "N876",
+        "nombre": "N876 sisa olmue"
+    },
+    {
+        "id": 504,
+        "codigo": "N606",
+        "nombre": "SISA ESTACIÓN CENTRAL"
+    },
+    {
+        "id": 505,
+        "codigo": "N589",
+        "nombre": "SISA MAIPU LA FARFANA"
+    },
+    {
+        "id": 506,
+        "codigo": "N693",
+        "nombre": "156-SISA-QUILPUÉ-DIEGO PORTALE"
+    },
+    {
+        "id": 507,
+        "codigo": "N820",
+        "nombre": "SISA CALAMA GRANADEROS"
+    },
+    {
+        "id": 508,
+        "codigo": "N802",
+        "nombre": "SISA DORSAL"
+    },
+    {
+        "id": 509,
+        "codigo": "N909",
+        "nombre": "909 - SISA - LOS BOLDOS CURICO"
+    },
+    {
+        "id": 510,
+        "codigo": "N993",
+        "nombre": "993 - SISA CERRO LOS PLACERES"
+    },
+    {
+        "id": 511,
+        "codigo": "N838",
+        "nombre": "838 - SISA MERCED"
+    },
+    {
+        "id": 512,
+        "codigo": "N737",
+        "nombre": "205-DAL FREIRE 455 CO"
+    },
+    {
+        "id": 513,
+        "codigo": "N605",
+        "nombre": "SISA LA PINTANA"
+    },
+    {
+        "id": 514,
+        "codigo": "N691",
+        "nombre": "153-SISA-LIMACHE-URMENETA"
+    },
+    {
+        "id": 515,
+        "codigo": "N761",
+        "nombre": "SISA LOS ANGELES"
+    },
+    {
+        "id": 516,
+        "codigo": "N700",
+        "nombre": "Sisa Carlos Valdovinos PAC"
+    },
+    {
+        "id": 517,
+        "codigo": "N841",
+        "nombre": "841 - SISA PALOMAR"
+    },
+    {
+        "id": 518,
+        "codigo": "N553",
+        "nombre": "SISA EL GABINO"
+    },
+    {
+        "id": 519,
+        "codigo": "N554",
+        "nombre": "29-SISA-TEMUCO-BULNES"
+    },
+    {
+        "id": 520,
+        "codigo": "N657",
+        "nombre": "657 - SISA PALMIRA"
+    },
+    {
+        "id": 521,
+        "codigo": "N927",
+        "nombre": "927 - SISA - MULCHEN"
+    },
+    {
+        "id": 522,
+        "codigo": "N776",
+        "nombre": "283-MC-LAS CONDES-CANTAGALLO"
+    },
+    {
+        "id": 523,
+        "codigo": "N687",
+        "nombre": "127-SISA-CURICO-CAMILO HENRIQU"
+    },
+    {
+        "id": 524,
+        "codigo": "N664",
+        "nombre": "41-SISA-SAN FELIPE-MERCED"
+    },
+    {
+        "id": 525,
+        "codigo": "N743",
+        "nombre": "206-DAL CARRERA 499 T"
+    },
+    {
+        "id": 526,
+        "codigo": "N604",
+        "nombre": "SISA MAIPÚ-PAJARITOS"
+    },
+    {
+        "id": 527,
+        "codigo": "N831",
+        "nombre": "831 - SISA DOÑIHUE CONDELL"
+    },
+    {
+        "id": 528,
+        "codigo": "N804",
+        "nombre": "804 -SISA PARIS ARICA"
+    },
+    {
+        "id": 529,
+        "codigo": "N603",
+        "nombre": "SISA LO PRADO-LAS REJAS"
+    },
+    {
+        "id": 530,
+        "codigo": "N828",
+        "nombre": "828 - SISA TALCA COLIN"
+    },
+    {
+        "id": 531,
+        "codigo": "N840",
+        "nombre": "840 - SISA PLAYA ANCHA"
+    },
+    {
+        "id": 532,
+        "codigo": "N818",
+        "nombre": "SISA CURACAVI PLAYA TRES"
+    },
+    {
+        "id": 533,
+        "codigo": "N971",
+        "nombre": "971 - SISA - PATIO LA REINA"
+    },
+    {
+        "id": 534,
+        "codigo": "N979",
+        "nombre": "979 - OVALLE ARIZTIA"
+    },
+    {
+        "id": 535,
+        "codigo": "N975",
+        "nombre": "975 - SISA TALAGANTE O'HIGGINS"
+    },
+    {
+        "id": 536,
+        "codigo": "N692",
+        "nombre": "155-SISA-HUECHURABA-PEDRO FONT"
+    },
+    {
+        "id": 537,
+        "codigo": "N551",
+        "nombre": "26-SISA-COQUIMBO-ANÍBAL PINTO"
+    },
+    {
+        "id": 538,
+        "codigo": "N790",
+        "nombre": "SISA LAS COMPAÑIAS LA SERENA"
+    },
+    {
+        "id": 539,
+        "codigo": "N803",
+        "nombre": "SISA - RECREO RANCAGUA"
+    },
+    {
+        "id": 540,
+        "codigo": "N572",
+        "nombre": "SISA MARINA ARAUCO"
+    },
+    {
+        "id": 541,
+        "codigo": "N848",
+        "nombre": "N848-QUILLOTA SN PEDRO (NERVI"
+    },
+    {
+        "id": 542,
+        "codigo": "N635",
+        "nombre": "635-SISA PLAZA ARTESANOS"
+    },
+    {
+        "id": 543,
+        "codigo": "N904",
+        "nombre": "904 - SISA PTO MONTT SARGENTO"
+    },
+    {
+        "id": 544,
+        "codigo": "N741",
+        "nombre": "214-SISA TALCA 1 NORTE 1201"
+    },
+    {
+        "id": 545,
+        "codigo": "N667",
+        "nombre": "44-SISA-MELIPILLA-C. MANSO"
+    },
+    {
+        "id": 546,
+        "codigo": "N703",
+        "nombre": "N703 SISA CONCHALI"
+    },
+    {
+        "id": 547,
+        "codigo": "N698",
+        "nombre": "172-SISA-PEÑALOLEN-AV. TOBALAB"
+    },
+    {
+        "id": 548,
+        "codigo": "N639",
+        "nombre": "639 - SISA FLEMING"
+    },
+    {
+        "id": 549,
+        "codigo": "N769",
+        "nombre": "279-MC-MAIPÚ-CIUDAD SATÉLITE"
+    },
+    {
+        "id": 550,
+        "codigo": "N849",
+        "nombre": "849 - SISA CASABLANCA (NERVI)"
+    },
+    {
+        "id": 551,
+        "codigo": "N914",
+        "nombre": "914 - SISA PAINE"
+    },
+    {
+        "id": 552,
+        "codigo": "N928",
+        "nombre": "928 - SISA - VALVIDIA RUBEN DA"
+    },
+    {
+        "id": 553,
+        "codigo": "N829",
+        "nombre": "829 - SISA EL TENIENTE CONDELL"
+    },
+    {
+        "id": 554,
+        "codigo": "N908",
+        "nombre": "908 - SISA OVALLE"
+    },
+    {
+        "id": 555,
+        "codigo": "N634",
+        "nombre": "634-SISA LO MARCOLETA"
+    },
+    {
+        "id": 556,
+        "codigo": "N537",
+        "nombre": "5-SISA-QUILPUÉ-CARRERA"
+    },
+    {
+        "id": 557,
+        "codigo": "N824",
+        "nombre": "824 - SISA RAHUE OSORNO"
+    },
+    {
+        "id": 558,
+        "codigo": "N734",
+        "nombre": "219-DAL DIEGO PORTAL 1040 PM"
+    },
+    {
+        "id": 559,
+        "codigo": "N701",
+        "nombre": "175-SISA-VITACURA-AV. VITACURA"
+    },
+    {
+        "id": 560,
+        "codigo": "N536",
+        "nombre": "4- SISA-VALPARAÍSO-URUGUAY"
+    },
+    {
+        "id": 561,
+        "codigo": "N722",
+        "nombre": "SISA-ALMIRANTE RIVEROS"
+    },
+    {
+        "id": 562,
+        "codigo": "N651",
+        "nombre": "651-SISA VALLE GRANDE"
+    },
+    {
+        "id": 563,
+        "codigo": "N607",
+        "nombre": "SISA SANTIAGO-COMPAÑÍA"
+    },
+    {
+        "id": 564,
+        "codigo": "N832",
+        "nombre": "832 - SISA MOSTAZAL CONDELL"
+    },
+    {
+        "id": 565,
+        "codigo": "N544",
+        "nombre": "13-SISA-LA CALERA-J.J. PÉREZ"
+    },
+    {
+        "id": 566,
+        "codigo": "N847",
+        "nombre": "847 - SISA SAN BERNARDO EUCALI"
+    },
+    {
+        "id": 567,
+        "codigo": "N923",
+        "nombre": "923 - SISA- ISLA DE MAIPO"
+    },
+    {
+        "id": 568,
+        "codigo": "N978",
+        "nombre": "978 - TEMUCO LABRANZA"
+    },
+    {
+        "id": 569,
+        "codigo": "N977",
+        "nombre": "977 - SISA CHILLAN LAS MARIPOS"
+    },
+    {
+        "id": 570,
+        "codigo": "N878",
+        "nombre": "878 - SISA SAN LUIS COLINA"
+    }
+]
