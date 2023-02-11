@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/front/src",
+  "sourceRoot": "apps/flash/src",
   "projectType": "application",
   "targets": {
     "build": {
@@ -11,18 +11,18 @@
       "defaultConfiguration": "production",
       "options": {
         "compiler": "babel",
-        "outputPath": "dist/apps/front",
-        "index": "apps/front/src/index.html",
+        "outputPath": "dist/apps/flash",
+        "index": "apps/flash/src/index.html",
         "baseHref": "/",
-        "main": "apps/front/src/main.tsx",
-        "polyfills": "apps/front/src/polyfills.ts",
-        "tsConfig": "apps/front/tsconfig.app.json",
+        "main": "apps/flash/src/main.tsx",
+        "polyfills": "apps/flash/src/polyfills.ts",
+        "tsConfig": "apps/flash/tsconfig.app.json",
         "assets": [
-          "apps/front/src/favicon.ico",
-          "apps/front/src/assets"
+          "apps/flash/src/favicon.ico",
+          "apps/flash/src/assets"
         ],
         "styles": [
-          "apps/front/src/styles.css"
+          "apps/flash/src/styles.css"
         ],
         "scripts": [],
         "webpackConfig": "@nrwl/react/plugins/webpack"
@@ -37,8 +37,8 @@
         "production": {
           "fileReplacements": [
             {
-              "replace": "apps/front/src/environments/environment.ts",
-              "with": "apps/front/src/environments/environment.prod.ts"
+              "replace": "apps/flash/src/environments/environment.ts",
+              "with": "apps/flash/src/environments/environment.prod.ts"
             }
           ],
           "optimization": true,
@@ -54,16 +54,16 @@
       "executor": "@nrwl/webpack:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "front:build",
+        "buildTarget": "flash:build",
         "hmr": true,
-        "proxyConfig": "apps/front/proxy.conf.json"
+        "proxyConfig": "apps/flash/proxy.conf.json"
       },
       "configurations": {
         "development": {
-          "buildTarget": "front:build:development"
+          "buildTarget": "flash:build:development"
         },
         "production": {
-          "buildTarget": "front:build:production",
+          "buildTarget": "flash:build:production",
           "hmr": false
         }
       }
@@ -75,17 +75,17 @@
       ],
       "options": {
         "lintFilePatterns": [
-          "apps/front/**/*.{ts,tsx,js,jsx}"
+          "apps/flash/**/*.{ts,tsx,js,jsx}"
         ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": [
-        "coverage/apps/front"
+        "coverage/apps/flash"
       ],
       "options": {
-        "jestConfig": "apps/front/jest.config.ts",
+        "jestConfig": "apps/flash/jest.config.ts",
         "passWithNoTests": true
       }
     }

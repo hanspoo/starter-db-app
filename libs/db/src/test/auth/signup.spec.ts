@@ -1,5 +1,5 @@
-import { SignupService } from "../lib/auth/SignupService";
-import { inicializarSistema } from "../lib/inicializarSistema";
+import { SignupService } from "../../lib/auth/SignupService";
+import { inicializarSistema } from "../../lib/inicializarSistema";
 import { randomBytes } from "crypto";
 
 let empresa = "Alfa Centauro";

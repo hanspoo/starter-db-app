@@ -7,8 +7,8 @@
     "components": "libs/components",
     "components-e2e": "apps/components-e2e",
     "db": "libs/db",
-    "front": "apps/front",
-    "front-e2e": "apps/front-e2e",
+    "flash": "apps/flash",
+    "flash-e2e": "apps/flash-e2e",
     "mail-utils": "libs/mail-utils",
     "reductor": "libs/reductor",
     "shared": "libs/shared"

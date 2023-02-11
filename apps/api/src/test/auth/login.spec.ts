@@ -1,10 +1,10 @@
 import { LoginRequest } from "@flash-ws/api-interfaces";
-import { dataSource, Empresa, inicializarCencosud } from "@flash-ws/db";
+import { dataSource, Empresa, inicializarSistema } from "@flash-ws/db";
 import request = require("supertest");
 import { app } from "../../app";
 
 beforeAll(async () => {
-  await inicializarCencosud();
+  await inicializarSistema();
   // const u = dataSource
   //   .getRepository(Usuario)
   //   .create({ email: 'info@welinux.cl', password: '123456' });

@@ -1,18 +1,18 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/front-e2e/src",
+  "sourceRoot": "apps/flash-e2e/src",
   "projectType": "application",
   "targets": {
     "e2e": {
       "executor": "@nrwl/cypress:cypress",
       "options": {
-        "cypressConfig": "apps/front-e2e/cypress.config.ts",
-        "devServerTarget": "front:serve:development",
+        "cypressConfig": "apps/flash-e2e/cypress.config.ts",
+        "devServerTarget": "flash:serve:development",
         "testingType": "e2e"
       },
       "configurations": {
         "production": {
-          "devServerTarget": "front:serve:production"
+          "devServerTarget": "flash:serve:production"
         }
       }
     },
@@ -23,13 +23,13 @@
       ],
       "options": {
         "lintFilePatterns": [
-          "apps/front-e2e/**/*.{js,ts}"
+          "apps/flash-e2e/**/*.{js,ts}"
         ]
       }
     }
   },
   "tags": [],
   "implicitDependencies": [
-    "front"
+    "flash"
   ]
 }

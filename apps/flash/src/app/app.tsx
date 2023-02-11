@@ -5,15 +5,14 @@ import {
   UserOutlined,
 } from '@ant-design/icons';
 import { Layout, Menu } from 'antd';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import {
   LoginState,
   LoginSection,
-  useHttpClient,
 } from '@flash-ws/components';
-import { useDispatch, useSelector } from 'react-redux';
-import { actualizarProductos, RootState } from '@flash-ws/reductor';
+import { useSelector } from 'react-redux';
+import { RootState } from '@flash-ws/reductor';
 
 
 const { Header, Sider, Content } = Layout;
@@ -26,15 +25,10 @@ enum Modo {
 }
 
 const App = () => {
-  const httpClient = useHttpClient()
-  const dispatch = useDispatch();
   const loggedIn = useSelector((state: RootState) => state.counter.loggedIn);
   const [modo, setModo] = useState(Modo.HOME);
   const [collapsed, setCollapsed] = useState(false);
 
-  useEffect(() => {
-    dispatch(actualizarProductos(httpClient))
-  }, [])
 
   if (!loggedIn) return <LoginSection />;
 

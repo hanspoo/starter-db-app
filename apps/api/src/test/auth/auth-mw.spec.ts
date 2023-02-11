@@ -1,10 +1,10 @@
-import { inicializarCencosud } from "@flash-ws/db";
+import { inicializarSistema } from "@flash-ws/db";
 
 import request = require("supertest");
 import { app } from "../../app";
 
 beforeAll(async () => {
-  await inicializarCencosud();
+  await inicializarSistema();
 });
 
 describe("middleware authentication", () => {

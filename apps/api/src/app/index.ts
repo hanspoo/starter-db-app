@@ -3,9 +3,6 @@ import cors from "cors";
 import session from "cookie-session";
 import { Message } from "@flash-ws/api-interfaces";
 import { auth } from "./routers/auth";
-import { users } from "./routers/users";
-
-import { loader } from "./routers/loader";
 import { me } from "./routers/me";
 import { archivos } from "./routers/archivos";
 import { TokenService } from "@flash-ws/db";
@@ -76,17 +73,9 @@ app.get("/api", (req, res) => {
   res.send(greeting);
 });
 
-// register routes
-// app.get('/', async function (req: Request, res: Response) {
-//   res.json({ name: 'Hello' });
-// });
-
 app.use("/api/archivos", archivos);
-app.use("/api/users", users);
 app.use("/api/auth", auth);
 app.use("/api/registration", registration);
-
 app.use("/api/me", authMiddleware, me);
-app.use("/api/loader", authMiddleware, loader);
 
 export { app };
