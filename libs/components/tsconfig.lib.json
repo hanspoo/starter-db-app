@@ -1,20 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": { "outDir": "../../dist/out-tsc", "types": ["node"] },
-  "files": [
-    "../../node_modules/@nrwl/react/typings/cssmodule.d.ts",
-    "../../node_modules/@nrwl/react/typings/image.d.ts",
-    "./src/lib/ordenes/DetalleOrden.tsx",
-    "./src/lib/upload-orden/MostrarErrores.tsx",
-    "./src/lib/lineas-detalle/LineaParaReact.ts",
-    "./src/lib/pallets-icono/Cubeta.tsx",
-    "./src/lib/pallets-generator/PalletsGeneratorImpl.tsx",
-    "src/lib/detalle-pallet/EtiquetaPalletComp.tsx",
-    "./src/lib/upload-orden/UploadOrdenReally.tsx",
-    "./src/lib/auth/recover-password/RecoverPasswordReadMail.tsx",
-    "./src/lib/auth/recover-password/RecoverPasswordReadCode.tsx",
-    "src/lib/signup/CompanyData.ts"
-  ],
+
   "exclude": [
     "jest.config.ts",
     "**/*.spec.ts",
