@@ -29,11 +29,11 @@ Este proyecto nace en el desarrollo de un sistema de logística que evolucionó 
 
 Incorporamos un buen proceso de login, registro y recuperación de contraseñas con buenas prácticas como por ejemplo no mandar enlaces en los correos y usar tokens y no cookies. Por lo tanto nos parece un buen aporte a la comunidad el disponer de un proyecto prototipico con el cual comenzar un desarrollo.
 
-Puede que queden algunas cosas vestigiales del sistema original de palets por ahí danto vueltas Les pedimos disculpas si es el caso nos avisan para irlas removiendo o nos mandan un MR.
+Puede que queden algunas cosas vestigiales del sistema original de pallets por ahí danto vueltas Les pedimos disculpas si es el caso nos avisan para irlas removiendo o nos mandan un MR.
 
 Al app principal React, y la base de datos llevan el nombre flash, en el sentido de que les va ayudar hacer muy rápido sus proyectos.
 
-Finalmente: disculpas por el spanglish, si efectivamente me ocurre que tiendo a mezclar el inglés y el español de manera casi involuntaria.
+Finalmente: Disculpas por el spanglish, estamos realizando un refactor global para dejar todo en español.
 
 ## Requisitos
 
