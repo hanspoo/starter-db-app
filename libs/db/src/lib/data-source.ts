@@ -20,7 +20,7 @@ const dbArgs: any = {
   database:
     process.env["NODE_ENV"] === testEnv
       ? "/tmp/db/" + crypto.randomBytes(12).toString("hex")
-      : "flash",
+      : process.env["DB_NAME"] || "flash",
 };
 console.log("dbArgs", dbArgs);
 

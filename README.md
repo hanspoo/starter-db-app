@@ -27,7 +27,7 @@ Nota: Sin links en los correos
 
 Este proyecto nace en el desarrollo de un sistema de logística que evolucionó en multiempresas, multi usuarios, del tipo que se utiliza para desarrollar software como servicio.
 
-Incorporamos un buen proceso de login, registro y recuperación de contraseñas con buenas prácticas como por ejemplo no mandar el links en los correos y usar tokens y no cookies. Por lo tanto nos parece un buen aporte a la comunidad el disponer de un proyecto protitipo con el cual comenzar tu desarrollo.
+Incorporamos un buen proceso de login, registro y recuperación de contraseñas con buenas prácticas como por ejemplo no mandar enlaces en los correos y usar tokens y no cookies. Por lo tanto nos parece un buen aporte a la comunidad el disponer de un proyecto prototipico con el cual comenzar un desarrollo.
 
 Puede que queden algunas cosas vestigiales del sistema original de palets por ahí danto vueltas Les pedimos disculpas si es el caso nos avisan para irlas removiendo o nos mandan un MR.
 
@@ -35,16 +35,27 @@ Al app principal React, y la base de datos llevan el nombre flash, en el sentido
 
 Finalmente: disculpas por el spanglish, si efectivamente me ocurre que tiendo a mezclar el inglés y el español de manera casi involuntaria.
 
-## Desarrollo
+## Requisitos
 
 node
-`https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04`
+
+```
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04
+```
 
 postgresql
-`sudo apt install postgresql`
+
+```
+sudo apt install postgresql
+```
 
 nx
-`sudo npm i -g nx`
+
+```
+sudo npm i -g nx
+```
+
+## Desarrollo
 
 ```
 git clone https://github.com/hanspoo/starter-db-app
@@ -72,6 +83,12 @@ Crear usuario y base de datos postgresql:
 sudo -u postgres ./bin/init-db.sh
 ```
 
+Se crea un usuario llamado flash, con contraseña flash y base de datos del mismo nombre.
+
+Se sugiere modificar .env.local para cambiar esto, variables:
+
+DB_HOST,DB_USER,DB_PASS y DB_NAME
+
 Ejecutar backend
 
 ```
@@ -81,7 +98,7 @@ nx serve api
 Ejecutar front en otro terminal
 
 ```
-nx serve
+nx serve flash
 ```
 
 Ir a al navegador:
@@ -92,3 +109,11 @@ usuario:
 admin@b2pallet.com
 password:
 123456
+
+## Producción
+
+```
+npm run build
+cd dist/apps/api
+node main.js
+```
