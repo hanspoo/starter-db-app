@@ -22,21 +22,36 @@ enum View {
 
 }
 export const SignupCoordinator: React.FC<{ cancel: () => void }> = ({ cancel }) => {
+  const [view, setView] = useState(View.EMAIL)
 
+  const pedazo = 100 / (Object.keys(View).length / 2);
+  const avance = pedazo * (view + 1)
   return <div className={styles["container"]}>
 
     <div className={styles["login-form"]}>
 
-      <Title level={3} style={{ marginBottom: '1em', display: "block" }}>Registrar Empresa</Title>
-      <DoRegistration cancel={cancel} />
+      <Title level={3} >Registrar Empresa</Title>
+      <div style={{ marginBottom: '1em', width: '100%', height: '2px' }}>
+        <div style={{ height: '2px', width: `${avance}%`, backgroundColor: '#1890ff' }}>
+
+        </div>
+      </div>
+      <DoRegistration cancel={cancel} view={view} setView={setView} />
       <div style={{ textAlign: "center" }}>
         <Button style={{ marginTop: '1em' }} type="link" onClick={cancel}>Volver al inicio</Button>
       </div>
     </div></div>
 
 }
-export const DoRegistration: React.FC<{ cancel: () => void }> = ({ cancel }) => {
-  const [view, setView] = useState(View.EMAIL)
+
+type DoRegProps = {
+  cancel(): void;
+  setView(view: View): void;
+  view: View;
+
+}
+function DoRegistration({ cancel, view, setView }: DoRegProps) {
+
   const [email, setEmail] = useState<string>()
   const [token, setToken] = useState<string>()
   const [companyData, setCompanyData] = useState<CompanyData>();
