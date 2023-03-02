@@ -75,6 +75,10 @@ NX_SMTP_USER=user@gmail.com
 NX_SMTP_PASS=xxxxxxxxx
 ; NX_SMTP_SERVER=smtp.gmail.com
 ; NX_SMTP_PORT=587
+
+NX_DB_NAME=gargola
+NX_DB_USER=gargola
+NX_DB_PASS=depiedra
 ```
 
 Crear usuario y base de datos postgresql:
@@ -106,7 +110,7 @@ http://localhost:4200
 
 Ahora se puede logear con el:
 usuario:
-admin@b2pallet.com
+admin@myapp.com
 password:
 123456
 
@@ -117,3 +121,25 @@ npm run build
 cd dist/apps/api
 node main.js
 ```
+
+## Custom database
+
+Crear archivo .env.local en la raíz del proyecto con las variables, por ejemplo:
+
+```
+NX_DB_NAME=gargola
+NX_DB_USER=gargola
+NX_DB_PASS=depiedra
+```
+
+Crear usuario y base de datos en postgres:
+
+```
+sudo su - postgres
+
+psql -c "create user gargola encrypted password 'depiedra' createdb;"
+createdb -h localhost -U gargola gargola
+psql -c 'create extension if not exists "uuid-ossp"' gargola
+```
+
+El script bin/pg-create.sh hace esto mismo.

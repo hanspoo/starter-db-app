@@ -13,14 +13,14 @@ const testEnv = "test";
 
 const dbArgs: any = {
   type: process.env["NODE_ENV"] === testEnv ? "sqlite" : "postgres",
-  host: process.env["DB_HOST"] || "localhost",
-  username: process.env["DB_USER"] || "flash",
-  password: process.env["DB_PASS"] || "flash",
+  host: process.env["NX_DB_HOST"] || "localhost",
+  username: process.env["NX_DB_USER"] || "flash",
+  password: process.env["NX_DB_PASS"] || "flash",
 
   database:
     process.env["NODE_ENV"] === testEnv
       ? "/tmp/db/" + crypto.randomBytes(12).toString("hex")
-      : process.env["DB_NAME"] || "flash",
+      : process.env["NX_DB_NAME"] || "flash",
 };
 console.log("dbArgs", dbArgs);
 
